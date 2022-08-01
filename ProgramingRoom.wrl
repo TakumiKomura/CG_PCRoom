@@ -1,0 +1,1545 @@
+#VRML V2.0 utf8
+
+#All desks  are defined here
+DEF ROW_DESK
+Transform{
+    children[
+        DEF Desk
+        Transform{
+            translation -9.0 -1.0 -9.0 #original point is defined here
+            children[
+                #A Box
+                Transform{
+                    translation 0.0 0.0 0.0 
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 2.0 0.05 0.5
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation -0.95 -0.4 -0.1
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 0.05 0.8 0.25
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation 0.95 -0.4 -0.1
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 0.05 0.8 0.25
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation 0.95 -0.8 0.0
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 0.05 0.08 0.5
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation -0.95 -0.8 0.0
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 0.05 0.08 0.5
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation 0.0 -0.3 -0.2
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.8 0.8 0.8
+                                    emissiveColor 0.0 0.0 0.0
+                                    transparency 0.0
+                                    specularColor 0 0 0
+                                    shininess 0.16
+                                    ambientIntensity 0.4
+                                }
+                            }
+                            geometry Box{
+                                size 2.0 0.6 0.05
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        Transform{
+            translation 2 0 0 
+            children[USE Desk]
+        }
+        Transform{
+            translation 4 0 0 
+            children[USE Desk]
+        }
+    ]
+}
+
+Transform{
+    translation 0.000 0.000 1.500
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 3.000
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 4.500
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 6.000
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 7.500
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 9.000
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 10.500
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 12.000
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 13.500
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 0.000 0.000 15.000
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 0.0
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 1.50
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 3.00
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 4.50
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 6.00
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 7.50
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 9.00
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 10.50
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 15.00
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7.00 0.00 13.50
+    children[USE ROW_DESK]
+}
+Transform{
+    translation 7 0 12 
+    children[USE Desk]
+}
+Transform{
+    translation 9 0 12 
+    children[USE Desk]
+}
+
+#A sphere going to a downside desk
+DEF SoccerBall
+Transform{
+    translation 11.0 -1.5 4.0
+    scale 2 2 2
+    children[
+        DEF SoccerBallTouch TouchSensor{}
+        Shape{
+            appearance Appearance{
+                material Material{}
+                texture ImageTexture {
+		            url "SoccerBallTexture.jpg"
+	            }
+            }
+            geometry Sphere {
+                radius 0.2
+            }
+        }
+    ]
+}
+DEF SoccerBallTimer TimeSensor {
+	cycleInterval 8.0
+	loop TRUE
+	startTime 0.0
+	stopTime 0.1
+}
+DEF SoccerBallPosition  PositionInterpolator{
+  key[0, 0.3 , 0.375, 0.625, 0.7, 1.0]
+  keyValue[ 11.0 -1.5 4.0, 4.0 -0.55 3.0 , 2.0 -0.55 3.0, 2.0 -0.55 3.0, 4.0 -0.55 3.0 , 11.0 -1.5 4.0 ]
+}
+ROUTE SoccerBallTouch.touchTime TO SoccerBallTimer.set_startTime
+ROUTE SoccerBallTimer.fraction_changed TO SoccerBallPosition.set_fraction
+ROUTE SoccerBallPosition.value_changed TO SoccerBall.set_translation
+
+#A desk which changes its color
+Transform{
+    translation 2.0 -1.0 3.0
+    children[
+        #A Box
+        Transform{
+            translation 0.0 0.0 0.0 
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk1Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 2.0 0.05 0.5
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation -0.95 -0.4 -0.1
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk2Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 0.05 0.8 0.25
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.95 -0.4 -0.1
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk3Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 0.05 0.8 0.25
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.95 -0.8 0.0
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk4Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 0.05 0.08 0.5
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation -0.95 -0.8 0.0
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk5Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 0.05 0.08 0.5
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.0 -0.3 -0.2
+            children[
+                Shape{
+                    appearance Appearance{
+                        material DEF Desk6Facade  Material{
+                            diffuseColor 0.8 0.8 0.8
+                            emissiveColor 0.0 0.0 0.0
+                            transparency 0.0
+                            specularColor 0 0 0
+                            shininess 0.16
+                            ambientIntensity 0.4
+                        }
+                    }
+                    geometry Box{
+                        size 2.0 0.6 0.05
+                    }
+                }
+            ]
+        }
+    ]
+}
+DEF DeskTimer TimeSensor {
+	cycleInterval 2.0
+	loop TRUE
+	startTime 0.0
+	stopTime 0.1
+}
+
+DEF DeskColor ColorInterpolator{
+	key[ 0.0, 0.25, 0.5, 0.75, 1.0]
+	keyValue[ 1.0 1.0 1.0, 1.0 0.0 0.0, 0.0 1.0 0.0, 0.0 0.0 1.0, 1.0 1.0 1.0 ]
+}
+
+ROUTE SoccerBallTouch.touchTime TO DeskTimer.set_startTime
+ROUTE DeskTimer.fraction_changed TO DeskColor.set_fraction
+ROUTE DeskColor.value_changed TO Desk1Facade.set_diffuseColor
+ROUTE DeskColor.value_changed TO Desk2Facade.set_diffuseColor
+ROUTE DeskColor.value_changed TO Desk3Facade.set_diffuseColor
+ROUTE DeskColor.value_changed TO Desk4Facade.set_diffuseColor
+ROUTE DeskColor.value_changed TO Desk5Facade.set_diffuseColor
+ROUTE DeskColor.value_changed TO Desk6Facade.set_diffuseColor
+
+#table
+DEF Table
+Transform{
+    translation 6.5 -1.0 -3.0
+    children[
+        Transform{
+            translation 0.0 0.0 0.0
+            scale 1.0 1.0 2.0
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                        diffuseColor 0.9 0.9 0.9
+                        emissiveColor 0.0 0.0 0.0
+                        transparency 0.0
+                        specularColor 0 0 0
+                        shininess 0.16
+                        ambientIntensity 0.4
+                        }
+                    }
+                    geometry Cylinder {
+                        radius 0.8
+                        height 0.02
+                        bottom TRUE
+                        top TRUE
+                        side TRUE
+                    }
+                }
+            ]
+        }
+        DEF Pole
+        Transform{
+            translation -0.5 -0.5 1.0
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                        diffuseColor 0.4 0.4 0.4
+                        emissiveColor 0.0 0.0 0.0
+                        transparency 0.0
+                        specularColor 0.5 0.5 0.5
+                        shininess 0.16
+                        ambientIntensity 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        radius 0.05
+                        height 1.0
+                        bottom TRUE
+                        top TRUE
+                        side TRUE
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.0 0.0 -2.0
+            children[USE Pole]
+        }
+        Transform{
+            translation 0.8 0.0 -2.0
+            children[USE Pole]
+        }
+        Transform{
+            translation 0.8 0.0 0.0
+            children[USE Pole]
+        }
+    ]
+}
+Transform{
+    translation 0.0 0.0 -3.5
+    children[USE Table]
+}
+Transform{
+    translation 0.0 0.0 3.5
+    children[USE Table]
+}
+Transform{
+    translation 0.0 0.0 -7.0
+    children[USE Table]
+}
+
+
+#All PCs are defined here 
+DEF ROW_PC
+Transform{
+    children[
+        DEF PC
+        Transform{
+            translation -9.5 -0.96 -9.0
+            scale 3.0 3.0 3.0
+            children[
+                DEF DisplayTouch TouchSensor{}    
+                Transform{
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.01 0.01 0.01
+                                    emissiveColor 0.01 0.01 0.01
+                                    transparency 0.0
+                                    specularColor 0.1 0.1 0.1
+                                    shininess 0.32
+                                    ambientIntensity 0.5
+                                }
+                            }
+                            geometry Box{
+                                size 0.1 0.002 0.1
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation 0.0 0.1 -0.014
+                    rotation 1 0 0 -0.2
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.01 0.01 0.01
+                                    emissiveColor 0.05 0.05 0.05
+                                    transparency 0.0
+                                    specularColor 0.1 0.1 0.1
+                                    shininess 0.32
+                                    ambientIntensity 0.5
+                                }
+                            }
+                            geometry Box{
+                                size 0.25 0.125 0.015
+                            }
+                        }
+                    ]
+                }
+                Transform{
+                    translation 0.0 0.05 -0.03
+                    scale 1 1 0.8
+                    children[
+                        Shape{
+                            appearance Appearance{
+                                material Material{
+                                    diffuseColor 0.01 0.01 0.01
+                                    emissiveColor 0.01 0.01 0.01
+                                    transparency 0.0
+                                    specularColor 0.1 0.1 0.1
+                                    shininess 0.32
+                                    ambientIntensity 0.5
+                                }
+                            }
+                            geometry Cylinder{
+                                height 0.1
+                                radius 0.016
+                            }
+                        }
+                    ]
+                }
+                #display
+                Shape {
+                    appearance Appearance {
+                        material DEF DisplayFacade Material {
+                            diffuseColor 0.2 0.2 0.2
+                            transparency 0.4
+                            shininess 0.32
+                        }
+                    }
+                    geometry IndexedFaceSet {
+                        coord Coordinate {
+                            point [
+                                -0.11 0.15 -0.01,#0
+                                -0.11 0.05 0.01,#1
+                                0.11 0.05 0.01,#2
+                                0.11 0.15 -0.01,#3
+                            ]
+                        }
+                        coordIndex [
+                            0, 1, 2, 3, -1
+                        ]
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 1.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 2.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 3.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 4.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 5.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 7.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 8.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 9.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 10.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 11.0 0.0 0.0
+            children[USE PC]
+        }
+        Transform{
+            translation 12.0 0.0 0.0
+            children[USE PC]
+        }
+    ]
+}
+
+Transform{
+    translation 0.00 0.00 1.50
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 3.00
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 4.50
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 6.00
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 7.50
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 9.00
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 10.50
+    children[USE ROW_PC]
+}
+Transform{
+    translation 0.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 0.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 0.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 1.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 1.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 1.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 2.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 2.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 2.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 3.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 3.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 3.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 4.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 4.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 4.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 5.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 5.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 5.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 7.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 7.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 7.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 8.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 8.00 0.00 13.50
+    children[USE PC]
+}
+Transform{
+    translation 8.00 0.00 15.00
+    children[USE PC]
+}
+Transform{
+    translation 9.00 0.00 12.00
+    children[USE PC]
+}
+Transform{
+    translation 10.00 0.00 12.00
+    children[USE PC]
+}
+
+DEF DisplayTimer TimeSensor {
+	cycleInterval 5.0
+	loop FALSE
+	startTime 0.0
+	stopTime 0.1
+}
+
+DEF DisplayColor ColorInterpolator{
+	key[ 0.25, 1.0]
+	keyValue[ 1.0 1.0 1.0, 0.5 0.5 0.9, ]
+}
+
+ROUTE DisplayTouch.touchTime TO DisplayTimer.set_startTime
+ROUTE DisplayTimer.fraction_changed TO DisplayColor.set_fraction
+ROUTE DisplayColor.value_changed TO DisplayFacade.set_diffuseColor
+
+#floor
+Transform{
+    translation 0.5 -2.0 -2.0 #position is same as ceiling
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.25 0.25 0.25
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+                texture ImageTexture {
+		            url "floor.jpg"
+	            }
+            }
+            geometry Box{
+                size 24.0  0.2  21.0 #size is same as ceiling
+            }
+        }
+    ]
+}
+
+#ceiling
+Transform{
+    translation -1.0 1.8 -2.0 #position is same as floor
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.7
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 21.0  0.1  21.0 #size is same as floor
+            }
+        }
+    ]
+}
+
+#pillars
+DEF Pillar
+Transform{
+    translation 3.6 -0.1 1.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Cylinder {
+                radius 0.5
+                height 3.9
+                bottom TRUE
+                top FALSE
+                side TRUE
+            }
+        }
+    ]
+}
+Transform{
+    translation 0.0 0.0 -6.0
+    children[USE Pillar]
+}
+Transform{
+    translation 0.0 0.0 -14.0
+    children[USE Pillar]
+}
+Transform{
+    translation 0.0 0.0 7.0
+    children[USE Pillar]
+}
+Transform{
+    translation -14.4 0.0 -6.0
+    children[USE Pillar]
+}
+Transform{
+    translation -14.4 0.0 -14.0
+    children[USE Pillar]
+}
+Transform{
+    translation -14.4 0.0 7.0
+    children[USE Pillar]
+}
+Transform{
+    translation -14.4 0.0 0.0
+    children[USE Pillar]
+}
+
+#wall
+Transform{ #front
+    translation -3.5 -0.1 -12.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 16.0  3.9  0.1 
+            }
+        }
+    ]
+}
+Transform{ #front right
+    translation 7.8 -0.1 -12.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 3.5  3.9  0.1 
+            }
+        }
+    ]
+}
+Transform{ #back
+    translation -4.0 -0.1 8.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 15.0  3.9  0.1 
+            }
+        }
+    ]
+}
+Transform{ #back right
+    translation 6.5 -0.1 5.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 6.0  3.9  0.1 
+            }
+        }
+    ]
+}
+Transform{ #back right vartical
+    translation 3.5 -0.1 6.7
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  3.5 
+            }
+        }
+    ]
+}
+
+DEF LeftWall
+Transform{ #left vartical
+    translation -11.5 -0.1 -12.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  1.0
+            }
+        }
+    ]
+}
+Transform{
+    translation 0.0 0.0 3.5
+    children[USE LeftWall]
+}
+Transform{
+    translation 0.0 0.0 7.5
+    children[USE LeftWall]
+}
+Transform{
+    translation 0.0 0.0 10.5
+    children[USE LeftWall]
+}
+Transform{
+    translation 0.0 0.0 13.5
+    children[USE LeftWall]
+}
+Transform{
+    translation 0.0 0.0 17.0
+    children[USE LeftWall]
+}
+Transform{ #left vartical below
+    translation -11.5 -1.8 -2.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.65 0.65 0.6
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  0.5  21.0
+            }
+        }
+    ]
+}
+
+#TransparentWall
+DEF TransparentWall
+Transform{ #right
+    translation 9.5 -0.1 -4.3
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.7 0.7 0.7
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 1.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  14.6
+            }
+        }
+    ]
+}
+Transform{ #left
+    translation -11.5 -0.1 -2.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.7 0.7 0.7
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.95
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  21.0 
+            }
+        }
+    ]
+}
+Transform{ #above
+    translation 9.5 1.8 -4.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  0.2  15.0 
+            }
+        }
+    ]
+}
+Transform{ #below
+    translation 9.5 -1.95 -4.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  0.2  15.0 
+            }
+        }
+    ]
+}
+
+#door
+DEF DoorHandle
+Transform{
+    translation 9.4 -0.1 -11.7
+    scale 1 1 1
+    children[
+        Transform{
+            rotation 1 0 0 1.5708
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                        diffuseColor 0.4 0.4 0.4
+                        emissiveColor 0.1 0.1 0.1
+                        transparency 0.0
+                        specularColor 0.5 0.5 0.5
+                        shininess 0.5
+                        ambientIntensity 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        radius 0.029
+                        height 0.2
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.035 0.0 0.1
+            rotation 0 0 1 1.5708
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                        diffuseColor 0.4 0.4 0.4
+                        emissiveColor 0.1 0.1 0.1
+                        transparency 0.0
+                        specularColor 0.5 0.5 0.5
+                        shininess 0.5
+                        ambientIntensity 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        radius 0.03
+                        height 0.08
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.0 0.0 0.1
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                        diffuseColor 0.4 0.4 0.4
+                        emissiveColor 0.1 0.1 0.1
+                        transparency 0.0
+                        specularColor 0.5 0.5 0.5
+                        shininess 0.5
+                        ambientIntensity 0.5
+                        }
+                    }
+                    geometry Sphere {
+                        radius 0.03
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform{
+    translation 19.0 0.0 0.0
+    rotation 0 0 1 3.14
+    children[USE DoorHandle]
+}
+Transform{
+    translation 17.3 0.0 -3.0
+    rotation 0 1 0 1.57
+    children[USE DoorHandle]
+}
+Transform{
+    translation 0.2 0.0 -25.0
+    rotation 1 0 0 3.14
+    children[
+        Transform{
+            translation 17.3 0.0 -3.0
+            rotation 0 1 0 1.57
+            children[USE DoorHandle]
+        }
+    ]
+}
+
+DEF Door1 #front
+Transform{
+    translation 5.3 -0.1 -12.5
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 1.5  3.9  0.1 
+            }
+        }
+    ]
+}
+DEF Door2 # right front
+Transform{
+    translation 9.5 -0.1 -12.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  1.0 
+            }
+        }
+    ]
+}
+DEF Door3 #right back fored
+Transform{
+    translation 9.9 -0.1 2.95
+    rotation 0 1 0 -1.2
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  1.0 
+            }
+        }
+    ]
+}
+DEF Door4 #right back behind
+Transform{
+    translation 9.9 -0.1 5.05
+    rotation 0 1 0 1.2
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.1 0.1 0.1
+                    shininess 0.5
+                    ambientIntensity 0.5
+                }
+            }
+            geometry Box{
+                size 0.1  3.9  1.0 
+            }
+        }
+    ]
+}
+
+#white boad
+Transform{
+    translation -3.5 0.0 -12.0
+    children[
+        Shape{
+            appearance Appearance{
+                material Material{
+                    diffuseColor 0.8 0.8 0.8
+                    emissiveColor 0.1 0.1 0.1
+                    transparency 0.0
+                    specularColor 0.6 0.6 0.6
+                    shininess 0.5
+                    ambientIntensity 0.9
+                }
+            }
+            geometry Box{
+                size 10.0  2.0  0.2 
+            }
+        }
+    ]
+}
+
+#monitor
+DEF Monitor
+Transform{
+    translation -7.0 1.65 -9.5
+    rotation 0 0 1 3.14
+    scale 6.0 6.0 6.0
+    children[
+        DEF MonitorTouch TouchSensor{}    
+        Transform{
+            translation 0.0 -0.0 -0.03
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                            diffuseColor 0.01 0.01 0.01
+                            emissiveColor 0.01 0.01 0.01
+                            transparency 0.0
+                            specularColor 0.1 0.1 0.1
+                            shininess 0.32
+                            ambientIntensity 0.5
+                        }
+                    }
+                    geometry Cylinder {
+                        radius 0.05
+                        height 0.01
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.0 0.1 -0.014
+            rotation 1 0 0 -0.2
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                            diffuseColor 0.01 0.01 0.01
+                            emissiveColor 0.05 0.05 0.05
+                            transparency 0.0
+                            specularColor 0.1 0.1 0.1
+                            shininess 0.32
+                            ambientIntensity 0.5
+                        }
+                    }
+                    geometry Box{
+                        size 0.25 0.125 0.01
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.0 0.07 -0.03
+            scale 1 1 0.8
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                            diffuseColor 0.01 0.01 0.01
+                            emissiveColor 0.01 0.01 0.01
+                            transparency 0.0
+                            specularColor 0.1 0.1 0.1
+                            shininess 0.32
+                            ambientIntensity 0.5
+                        }
+                    }
+                    geometry Cylinder{
+                        height 0.15
+                        radius 0.01
+                    }
+                }
+            ]
+        }
+        #display
+        Transform{
+            translation 0.0 0.0 -0.008
+            children[
+                Shape {
+                    appearance Appearance {
+                        material DEF MonitorFacade Material {
+                            diffuseColor 0.2 0.2 0.2
+                            transparency 0.4
+                            shininess 0.32
+                        }
+                    }
+                    geometry IndexedFaceSet {
+                        coord Coordinate {
+                            point [
+                                -0.11 0.15 -0.01,#0
+                                -0.11 0.05 0.01,#1
+                                0.11 0.05 0.01,#2
+                                0.11 0.15 -0.01,#3
+                            ]
+                        }
+                        coordIndex [
+                            0, 1, 2, 3, -1
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
+Transform{
+    translation 0.0 0.0 6.0
+    children[USE Monitor]
+}
+Transform{
+    translation 0.0 0.0 9.0
+    children[USE Monitor]
+}
+Transform{
+    translation 0.0 0.0 13.5
+    children[USE Monitor]
+}
+Transform{
+    translation 7.0 0.0 0.0
+    children[USE Monitor]
+}
+Transform{
+    translation 7.0 0.0 6.0
+    children[USE Monitor]
+}
+Transform{
+    translation 7.0 0.0 9.0
+    children[USE Monitor]
+}
+Transform{
+    translation 7.0 0.0 13.5
+    children[USE Monitor]
+}
+
+
+DEF MonitorTimer TimeSensor {
+	cycleInterval 5.0
+	loop TRUE
+	startTime 0.0
+	stopTime 0.1
+}
+
+DEF MonitorColor ColorInterpolator{
+	key[ 0.0, 0.8, 1.0]
+	keyValue[ 1.0 1.0 1.0, 1.0 1.0 1.0, 0.2 0.2 0.2 ]
+}
+
+ROUTE MonitorTouch.touchTime TO MonitorTimer.set_startTime
+ROUTE MonitorTimer.fraction_changed TO MonitorColor.set_fraction
+ROUTE MonitorColor.value_changed TO MonitorFacade.set_diffuseColor
+
+#screen
+Transform{
+    translation -3.5 0.5 -10.5
+    scale 12 10 5
+    children[
+        Transform{
+            children[
+                Shape{
+                    appearance Appearance{
+                        material Material{
+                            diffuseColor 0.01 0.01 0.01
+                            emissiveColor 0.01 0.01 0.01
+                            transparency 0.0
+                            specularColor 0.1 0.1 0.1
+                            shininess 0.32
+                            ambientIntensity 0.5
+                        }
+                    }
+                    geometry Box{
+                        size 0.25 0.25 0.01
+                    }
+                }
+            ]
+        }
+        Transform{
+            translation 0.002 -0.2 0.01
+            scale 1.0 2.0 1.0
+            children[
+                Shape {
+                    appearance Appearance {
+                        material DEF MonitorFacade Material {
+                            diffuseColor 0.9 0.9 0.9
+                            transparency 0.4
+                            shininess 0.32
+                        }
+                    }
+                    geometry IndexedFaceSet {
+                        coord Coordinate {
+                            point [
+                                -0.11 0.15 0.0,#0
+                                -0.11 0.05 0.0,#1
+                                0.11 0.05 0.0,#2
+                                0.11 0.15 0.0,#3
+                            ]
+                        }
+                        coordIndex [
+                            0, 1, 2, 3, -1
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
+ROUTE MonitorColor.value_changed TO MonitorFacade.set_diffuseColor
